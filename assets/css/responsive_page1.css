@@ -1,0 +1,90 @@
+@media  screen and (max-width: 376px) {
+        .header {
+                padding:  20px;
+                height: 65px;
+        }
+
+        .header__title-img {
+                width: 217px;
+                height: 20px;
+        }
+
+        .header__menu {
+                display: none;
+        }
+
+        .header__menu-icon {
+                display: block;
+        }
+
+        .body__content-img {
+                margin-top: 52px;
+                width: 375px;
+                height: 235px;
+        }
+
+        .body__content-title {
+                margin: 32px 20px 0;
+                max-width: 335px;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 42.96px;
+                font-family: 'New York Extra Large', sans-serif;
+        }
+
+        .body__content-desc {
+                max-width: 335px;
+                margin-top: 24px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27.2px;
+        }
+
+        .body__articles {
+                margin-top: 56px;
+        }
+
+        .body__articles-title {
+                margin-top: 56px;
+                font-family: New York Extra Large;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38.19px;
+            }
+
+        .body__articles-list {
+                margin-top: 29px;
+                grid-template-columns: repeat(1, 1fr);
+                row-gap: 42px;
+        }
+
+        .body__articles-item {
+                margin: 0 auto;
+        }
+
+        .footer {
+                padding-top: 22px;
+                margin-top: 82px;
+                overflow-x: hidden;
+        }
+
+        .footer__item {
+                font-size: 16px;
+                line-height: 28px;
+                white-space: nowrap;
+        }
+
+        .footer__title-img{
+                margin-top: 103.41px;
+                width: 236.37px;
+                height: 22.18px;
+        }
+
+        .footer__desc{
+                margin-top: 25.41px;
+                max-width: 287px;
+                font-size: 13px;
+                line-height: 18.2px;
+        }
+
+      }
